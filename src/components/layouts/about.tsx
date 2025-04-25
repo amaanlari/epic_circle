@@ -67,10 +67,10 @@ import { Card, CardContent } from "@/components/ui/card";
 export default function AboutSection() {
     return (
         <div className="bg-black text-white py-20">
-            <div className="container mx-auto px-4 md:px-6">
+            <div className="container mx-auto px-4 md:px-12">
                 <div className="flex flex-col md:flex-row gap-12 items-center">
                     {/* Left side content */}
-                    <div className="flex-1">
+                    <div className="flex-1 mx-12">
                         <h2 className="text-4xl font-light tracking-tight mb-6">
                             The Ultimate <span className="text-gold">Exclusive Experience</span>
                         </h2>
@@ -105,7 +105,7 @@ export default function AboutSection() {
                     <div className="flex-1 flex justify-center">
                         <Card className="bg-gradient-to-br from-gray-900 to-black border border-amber-400/30 w-full max-w-md">
                             <CardContent className="p-6">
-                                <div className="aspect-square relative bg-black border-2 border-gold flex items-center justify-center mb-6">
+                                <div className="aspect-square relative flex items-center justify-center mb-6">
                                     <img
                                         src="/assets/images/epic-circle-card.png"
                                         alt="Epic Circle Membership Card"

@@ -70,7 +70,7 @@ const MembershipPlans = () => {
     ];
 
     return (
-        <div className="w-full bg-black py-24 px-4 md:px-6 lg:px-8">
+        <div className="w-full bg-black py-24 px-10 md:px-6 lg:px-8">
             <div className="max-w-7xl mx-auto">
                 <div className="text-center mb-16">
                     <h2 className="text-3xl md:text-4xl font-light text-white mb-6">

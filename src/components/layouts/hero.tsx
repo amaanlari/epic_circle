@@ -1,11 +1,11 @@
 import React from 'react';
-import { motion } from 'framer-motion';
-import { Button } from "@/components/ui/button";
-import { ArrowRightIcon, ShieldCheckIcon } from "lucide-react";
+import {motion} from 'framer-motion';
+import {Button} from "@/components/ui/button";
+import {ArrowRightIcon, ShieldCheckIcon} from "lucide-react";
 
 const Hero: React.FC = () => {
     const containerVariants = {
-        hidden: { opacity: 0 },
+        hidden: {opacity: 0},
         visible: {
             opacity: 1,
             transition: {
@@ -35,9 +35,9 @@ const Hero: React.FC = () => {
         <motion.section
             initial="hidden"
             whileInView="visible"
-            viewport={{ once: true, amount: 0.1 }}
+            viewport={{once: true, amount: 0.1}}
             variants={containerVariants}
-            className="relative min-h-screen flex items-center overflow-hidden"
+            className="relative min-h-screen flex items-center overflow-hidden mx-12"
         >
             {/* Sophisticated Gradient Background */}
             <div className="inset-0 bg-gradient-to-br
@@ -66,7 +66,7 @@ const Hero: React.FC = () => {
                 bg-neutral-800/50 px-4 py-2 rounded-full
                 border border-neutral-700/50"
                         >
-                            <ShieldCheckIcon className="w-5 h-5 text-amber-400" />
+                            <ShieldCheckIcon className="w-5 h-5 text-amber-400"/>
                             <span className="text-neutral-300 text-sm">
                 Verified Luxury Membership
               </span>
@@ -80,9 +80,8 @@ const Hero: React.FC = () => {
                         >
                             Redefining{" "}
                             <span className="bg-clip-text text-transparent
-                               bg-gradient-to-r from-amber-400 to-amber-600">
-                Exclusive Loyalty
-              </span>
+                               bg-gradient-to-r from-amber-400 to-amber-600">Exclusive Loyalty
+                            </span>
                         </motion.h1>
 
                         <motion.p
@@ -95,19 +94,21 @@ const Hero: React.FC = () => {
                             reserved for the most discerning individuals.
                         </motion.p>
 
-                        <motion.div variants={itemVariants}>
-                            <Button
-                                size="lg"
-                                className="bg-gradient-to-r from-amber-500 to-amber-600
+                        <motion.div variants={itemVariants} className="flex items-center justify-center w-full">
+                            <div className={"w-full flex justify-center"}>
+                                <Button
+                                    size="lg"
+                                    className="bg-gradient-to-r from-amber-500 to-amber-600
                            text-black hover:from-amber-600 hover:to-amber-700
                            group flex items-center gap-2"
-                            >
-                                Explore Membership
-                                <ArrowRightIcon
-                                    className="group-hover:translate-x-1 transition-transform"
-                                    size={20}
-                                />
-                            </Button>
+                                >
+                                    Explore Membership
+                                    <ArrowRightIcon
+                                        className="group-hover:translate-x-1 transition-transform"
+                                        size={20}
+                                    />
+                                </Button>
+                            </div>
                         </motion.div>
                     </motion.div>
 

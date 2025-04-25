@@ -38,7 +38,7 @@ const Navbar = () => {
     ];
 
     return (
-        <section className="fixed w-full overflow-hidden top-0 left-0 p-3 rounded-xl z-50 bg-neutral-900">
+        <section className="fixed w-[98%] overflow-hidden top-1  p-3 rounded-xl z-50 bg-neutral-900 px-12">
             <div className="container">
                 <nav className="flex items-center justify-between">
                     <a
@@ -46,7 +46,7 @@ const Navbar = () => {
                         className="flex items-center gap-0 mx-0"
                     >
                         <img
-                            src="/assets/logo.png"
+                            src="/assets/epic-circle-logo.png"
                             className="max-h-10"
                             alt="Epic Circle Logo"
                         />

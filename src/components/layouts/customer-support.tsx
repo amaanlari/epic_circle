@@ -29,7 +29,7 @@ const CustomerSupport = () => {
     };
 
     return (
-        <section ref={ref} className="py-24 px-10  relative inset-0 bg-gradient-to-br from-neutral-900 via-neutral-800/90 to-neutral-500/10 background-animate opacity-90 overflow-hidden">
+        <section ref={ref} className="py-24 px-24  relative inset-0 bg-gradient-to-br from-neutral-900 via-neutral-800/90 to-neutral-500/10 background-animate opacity-90 overflow-hidden">
             {/* Background decoration elements */}
             <div className="absolute top-0 right-0 w-96 h-96 bg-yellow-600 opacity-5 rounded-full -mr-48 -mt-48 blur-3xl"></div>
             <div className="absolute bottom-0 left-0 w-64 h-64 bg-yellow-600 opacity-5 rounded-full -ml-32 -mb-32 blur-2xl"></div>
@@ -178,7 +178,7 @@ const TravelLeisure = () => {
     ];
 
     return (
-        <section ref={ref} className="py-24 px-10 bg-gradient-to-b from-black to-black/60 relative overflow-hidden">
+        <section ref={ref} className="py-24 px-24 bg-gradient-to-b from-black to-black/60 relative overflow-hidden">
             {/* Parallax background elements */}
             <motion.div
                 className="absolute -top-40 -right-40 w-96 h-96 rounded-full bg-yellow-600 opacity-5 blur-3xl"
